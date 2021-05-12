@@ -33,7 +33,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'sqlite3',     '1.3.9'
+  gem 'sqlite3'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'web-console'
   gem 'spring'
@@ -45,11 +45,11 @@ group :development, :test do
   gem 'webdrivers'
 end
 
-# group :test do
-#   gem 'minitest-reporters'
-#   gem 'mini_backtrace'
-#   gem 'guard-minitest'
-# end
+group :test do
+  gem 'minitest-reporters'
+  gem 'mini_backtrace'
+  gem 'guard-minitest'
+end
 
 group :production do
   gem 'pg', '~> 0.17.1'
