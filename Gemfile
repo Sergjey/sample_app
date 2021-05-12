@@ -45,11 +45,11 @@ group :development, :test do
   gem 'webdrivers'
 end
 
-group :test do
-  gem 'minitest-reporters'
-  gem 'mini_backtrace'
-  gem 'guard-minitest'
-end
+# group :test do
+#   gem 'minitest-reporters'
+#   gem 'mini_backtrace'
+#   gem 'guard-minitest'
+# end
 
 group :production do
   gem 'pg', '~> 0.17.1'
