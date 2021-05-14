@@ -40,16 +40,16 @@ group :development, :test do
   gem 'spring'
   gem 'rack-mini-profiler'
   gem 'listen'
-  gem 'capybara'
-  gem 'selenium-webdriver'
-  # Easy installation and use of web drivers to run system tests with browsers
-  gem 'webdrivers'
 end
 
 group :test do
   gem 'minitest-reporters'
   gem 'mini_backtrace'
   gem 'guard-minitest'
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  # Easy installation and use of web drivers to run system tests with browsers
+  gem 'webdrivers'
 end
 
 group :production do
